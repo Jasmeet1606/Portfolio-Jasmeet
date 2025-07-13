@@ -1,0 +1,223 @@
+<!-- Navbar | Hero | About  | Projects | Contact -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasmeet Kaur | MERN Portfolio</title>
+  <link  href="style2.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-light fw-bold" href="#">Jasmeet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+     <h1>Hi, I'm <span>Jasmeet</span></h1>
+    <p>Crafting digital experiences with code & creativity ✨</p>
+    <div class="social-icons">
+      <a href="https://github.com/Jasmeet1606" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/jasmeet-kaur-30bb56303/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="jasmeetk.saini16@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </section>
+
+
+   <!-- Floating Astronaut -->
+    <img src="assets/astron.png" class="astronaut" alt="Astronaut" />
+
+    <!-- Spaceship -->
+    <img src="assets/ufo.png" class="spaceship" alt="Spaceship" />
+
+  
+   <!-- Floating Galaxy Objects -->
+   <img src="assets/moon.png" class="galaxy-obj moon" alt="Moon" />
+   <img src="assets/galaxy.png" class="galaxy-obj planet1" alt="Planet 1" />
+   <img src="assets/saturn.png" class="galaxy-obj planet2" alt="Planet 2" />
+   <img src="assets/star.png" class="galaxy-obj star1" alt="Star 1" />
+   <img src="assets/shooting-stars.png" class="galaxy-obj star2" alt="Star 2" />
+
+
+
+    <!-- Twinkling stars -->
+  <div class="twinkling-star" style="top: 20%; left: 30%; animation-delay: 0s;"></div>
+    <div class="twinkling-star" style="top: 10%; left: 70%; animation-delay: 0.5s;"></div>
+    <div class="twinkling-star" style="top: 50%; left: 10%; animation-delay: 1s;"></div>
+    <div class="twinkling-star" style="top: 80%; left: 90%; animation-delay: 1.5s;"></div>
+    <div class="twinkling-star" style="top: 40%; left: 40%; animation-delay: 0.7s;"></div>
+    <div class="twinkling-star" style="top: 60%; left: 20%; animation-delay: 1.2s;"></div>
+    <div class="twinkling-star" style="top: 75%; left: 60%; animation-delay: 1.7s;"></div>
+    <div class="twinkling-star" style="top: 30%; left: 80%; animation-delay: 0.3s;"></div>
+    <div class="twinkling-star" style="top: 85%; left: 80%; animation-delay: 1.7s;"></div>
+  </section>
+
+  <!-- ABOUT -->
+
+
+<section id="about" class="about-section py-5">
+  <img src="assets/galaxy.png" alt="Galaxy" class="galaxy-png" />
+  <div class="container text-center text-light">
+    <h2 class="mb-5 gradient-text display-5">About Me</h2>
+
+    <p class="lead mb-4 fs-5 text-glow">
+      Hi, I’m <strong class="text-highlight">Jasmeet Kaur</strong>, an aspiring Front-End Developer passionate about creating beautiful and responsive web designs.
+    </p>
+
+    <p class="mb-4 fs-6">
+      I started my journey with a 2-month training in basic web development last year where I learned HTML, CSS, and Bootstrap. Since then, I've been exploring advanced tools like React and Firebase.
+    </p>
+
+    <p class="mb-4 fs-6">
+      Recently, I built a perfume store website using React and am now developing my own animated portfolio. I'm constantly learning and improving, and I'm excited to dive deeper into JavaScript and full-stack development.
+    </p>
+
+    <p class="mb-5 text-glow">
+      <strong>My Vision:</strong> To grow as a full-stack developer and build modern, user-friendly web applications that leave a lasting impact.
+    </p>
+
+
+    <div class="mt-5 p-4 rounded backdrop-box">
+      <h6 class="text-highlight">Beyond Code</h6>
+      <p> I love painting and exploring space-themed art. </p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section py-5">
+  <div class="container text-center text-light">
+    <h2 class="mb-5 gradient-text display-5">Projects</h2>
+
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card p-4 h-100">
+          <div class="project-img-wrapper">
+            <img src="assets/perfume.png" alt="Perfume Store" class="img-fluid rounded mb-3">
+          </div>
+          <h5 class="text-highlight">Perfume Store</h5>
+          <p class="text-glow small">A modern perfume landing page built using React and Bootstrap with Firebase hosting.</p>
+          <div class="mb-2">
+            <span class="badge bg-gradient">HTML</span>
+            <span class="badge bg-gradient">Bootstrap</span>
+            <span class="badge bg-gradient">CSS</span>
+          </div>
+          <a href="https://jasmeet1606.github.io/Perfume-webpage/" class="btn btn-outline-light btn-sm me-2" target="_blank">Live Demo</a>
+          <a href="https://github.com/Jasmeet1606/Perfume-webpage" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card p-4 h-100">
+          <div class="project-img-wrapper">
+            <img src="assets/parallax.png" alt="Parallax Landing Page" class="img-fluid rounded mb-3">
+          </div>
+          <h5 class="text-highlight">Parallax Landing Page</h5>
+          <p class="text-glow small">A single-page parallax effect website with galaxy-themed visuals using HTML and CSS.</p>
+          <div class="mb-2">
+            <span class="badge bg-gradient">HTML</span>
+            <span class="badge bg-gradient">CSS</span>
+          </div>
+          <a href="https://jasmeet1606.github.io/parallax-effect/" class="btn btn-outline-light btn-sm me-2" target="_blank">Live Demo</a>
+          <a href="https://github.com/Jasmeet1606/parallax-effect" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card p-4 h-100">
+          <div class="project-img-wrapper">
+            <img src="assets/cafe.png" alt="Coffee Shop UI" class="img-fluid rounded mb-3">
+          </div>
+          <h5 class="text-highlight">Coffee Shop UI</h5>
+          <p class="text-glow small">Redesigned a responsive Bootstrap template for a fictional coffee business website.</p>
+          <div class="mb-2">
+            <span class="badge bg-gradient">Bootstrap</span>
+            <span class="badge bg-gradient">HTML</span>
+            <span class="badge bg-gradient">CSS</span>
+          </div>
+          <a href="https://jasmeet1606.github.io/Business-casual/" class="btn btn-outline-light btn-sm me-2" target="_blank">Live Demo</a>
+          <a href="https://github.com/Jasmeet1606/business-casual" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Upcoming card -->
+    <div class="mt-5">
+      <p class="text-glow">Currently learning JavaScript and building more exciting projects! 🚀</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact" class="contact-section py-5">
+  <div class="container text-light">
+    <h2 class="text-center mb-5 gradient-text display-5">Let's Connect</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <div class="contact-box p-4 p-md-5">
+          <form>
+            <div class="mb-4">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control custom-input" id="name" placeholder="e.g. Jasmeet Kaur" required>
+            </div>
+
+            <div class="mb-4">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control custom-input" id="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="mb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control custom-input" id="message" rows="6" placeholder="..." required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-outline-light btn-sm submit-btn px-5 py-2">Send Message </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="text-glow small">Or find me here:</p>
+      <div class="social-icons">
+        <a href="https://github.com/Jasmeet1606" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/jasmeet-kaur-30bb56303/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="jasmeetk.saini16@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
